@@ -1,0 +1,587 @@
+/*project name:school management system
+created by:Sahab Uddin
+date:11/07/2019
+section name:
+	1.header
+	2.nav and slider
+;
+*/
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+/* fonr */
+/* base css */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/* end base css */
+/*header section start*/
+.over{
+	overflow: hidden;
+}
+.header{
+	background-color: #56ab2f;
+	height: 35px;
+}
+
+.custom-header-part{
+	margin-left: 100px;
+	display: inline-block;
+}
+.custom-login-part{
+	margin-left: 150px;
+}
+
+.custom-border{
+	color:#4a9e23;
+
+}
+.display-disable{
+	display: block;
+}
+.show-header{
+	display: none;
+}
+/*header section end*/
+/*slider and nav section start*/
+/* .silder{
+	background-image: url(../../assets/img/slider_img.jpg);
+	height: 770px;
+	width: 100%;
+
+} */
+.motaleb{
+	position: relative;
+}
+.motaleb-re{
+	position: absolute;
+	top: 22%;
+	left: 52%;
+}
+.custom-nav{
+	margin-left: 500px;
+}
+.nav-part{
+	background-color: #feffff;
+}
+.custom-carousel{
+	border: none;
+	margin-top: -520px;
+	z-index: -1000;
+}
+.b-opacity{
+	opacity: 0.9;
+	z-index: 9999;
+	
+
+}
+.img-position{
+	margin-left: 130px;
+}
+.text-custom,a{
+	color: black;
+}
+.text-custom,a:hover{
+	color: green;
+}
+.active{
+	color: green;
+}
+.font-custom,p{
+	font-size: 10px;
+	text-align: justify;
+}
+/* .custom-button{
+	margin-left: 160px;
+} */
+.custom-button1{
+	background-color: #fff;
+	color: #56ab2f;
+	border: 1px solid #56ab2f;
+	border-radius: 5px;
+}
+.custom-heading{
+	margin-top: 200px;
+}
+/*slider and nav section end*/
+/* model */
+.modal-body img{
+	height: 300px;
+	width: 300px;
+}
+/* end model */
+/*principal section start*/
+.background-pic{
+	background-image: url(../../assets/img/treeimg.png);
+	height: 227px;
+	width: 800px;
+}
+.custom-principal-image{
+	margin-top: 30px;
+	margin-left: -50px;
+}
+.custom_principle_p{
+	width: 68%;
+	height: 70%;
+}
+.custom_principle_p p{
+	text-align: justify;
+	padding-top: 12%;
+}
+/*principal section end*/
+/*courses section start*/
+.card{
+	position: relative;
+	/*  */
+}
+.card img{
+	height: 200px;
+	width: auto;
+}
+/* .custom_cards{
+	height: 430px;
+	width: 380px;
+	overflow: hidden;
+} */
+.left {
+	background-color:#fff;
+	height: 50px;
+	line-height: 50px;
+	float:left;
+	text-align: center;
+	width:33%; /* The width is 20%, by default */
+  }
+  .left p{
+	  text-align: center;
+	  font-size: 12px;
+  }
+  
+  .main {
+	background: green;
+	height: 50px;
+	line-height: 50px;
+	float:left;
+	text-align: center;
+	width:33%; /* The width is 60%, by default */
+  }
+  .main p{
+	text-align: center;
+	font-size: 12px;
+	
+}
+  .right {
+	background-color:#fff;
+	height: 50px;
+	line-height: 50px;
+	float:left;
+	text-align: center;
+	width:33%; /* The width is 20%, by default */
+  }
+  .right p{
+	text-align: center;
+	font-size: 12px;
+}
+.custom-card-text{
+	height: 1px;
+	background-color: gray;
+	width: 80px;
+	text-align: center;
+	margin-left: 112px;
+}
+
+.f-text1{
+	background-color: #56ab2f;
+}
+.f-text1{
+	line-height: 50px;
+	margin-bottom: -13px;
+}
+.f-text1,a:hover{
+	text-decoration: none;
+}
+.f-text1,span{
+	color: #fff;
+	margin-top: -13px;
+}
+.brouse-course{
+	padding: 10px;
+	border: 1px solid green;
+}
+.brouse-course:hover{
+	background-color: green;
+	color: #fff;
+}
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	top: 50%;
+	right: 0;
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 50%;
+	left: 0; 
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+/*courses section end*/
+
+/* fatcs section */
+.fact{
+	height: 60%;
+	width: 100%;
+	overflow: hidden;
+}
+.bac-pic{
+	background-image: url(../../assets/img/top_img.png);
+	background-attachment: fixed;
+	height: 280px;
+	width: 100%;
+}
+.content-box{
+	padding-top:5%; 
+}
+.stat-items h1{
+	color:#fff;
+	text-align: left;
+}
+.stat-items p i{
+	color: #feffff
+}
+.stat-items h2{
+	font-weight: bold;
+	font-size: 42px;
+	color: #ffff;
+}
+.stat-items p{
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	color: #feffff;
+
+}
+/* fatcs section end */
+/*faction section start*/
+.contact{
+	border: 1px solid #fff;
+	padding: 10px;
+	margin-top: 30px;
+}
+.increament{
+	margin-top: 75px;
+}
+/*faction section end*/
+/*news section start*/
+.custom-news{
+	border: 1px solid green;
+	padding: 10px;
+}
+.custom-news:hover{
+	background-color: green;
+	color: #fff;
+}
+.custom_news{
+	height: 222px;
+	max-width: 550px;
+}
+.custom_news img{
+	height: 220px;
+	width: 100%;
+}
+.custom_news1{
+	height: 470px;
+	max-width: 550px;
+}
+.custom_news1 img{
+	height: 300px;
+	width: auto;
+}
+
+/*news section end*/
+/*student says section start*/
+/* news-head */
+/* .news-head{
+	height: 100vh;
+	overflow: hidden;
+} */
+/* news-head end */
+.student{
+	background:#f1f1f1;
+	height: auto;
+	width: 100%;
+}
+.first-comment{
+	height: 250px;
+	width: 450px;
+	background-color: #fff;
+	margin-left: 65px;
+}
+.first-comment1{
+	height: 250px;
+	width: 450px;
+	background-color: #fff;
+	margin-left: 65px;
+}
+.second-comment{
+	height: 250px;
+	width: 400px;
+	background-color: #fff;
+}
+.thired-comment{
+	height: 250px;
+	width: 400px;
+	background-color: #fff;
+}
+.custom-img-comment{
+	margin-left: 70px;
+	margin-top: -60px;
+}
+.custom_say_p{
+	margin-left: 20px;
+	text-align: justify;
+	font-size: 12px;
+}
+.custom_say_h6{
+	margin-left: 20px;
+	padding-top: 15px;
+}
+/*student says section end*/
+/*subscribe section start*/
+.subscribe{
+	background-color: #56ab2f;
+	height: 70%;
+	width: 100%;
+	overflow: hidden;
+}
+.email-section{
+	margin-left: 300px;
+	padding: 10px;
+	background-color: #56ab2f;
+	border: 1px solid #fff;
+}
+.masage{
+	padding: 10px;
+	width: 50px;
+	text-align:center;
+	margin-left: 10px;
+	border: 2px solid #9bc887;
+}
+/*subscribe section end*/
+  /*footer css start*/
+  .footer{
+	background-color: #000;
+	height: auto;
+	width: 100%;
+}
+
+
+.custom-f-text{
+	font-size: 14px;
+}
+.cust-ul{
+	margin-top: 13px;
+}
+.custom-a{
+	color: #ffff;
+}
+a.custom-a:hover{
+	color: green;
+}
+.bottom-border{
+	height: 1px;
+	background-color: #96cc7e;
+	margin-top: 50px;
+}
+.custom-ic{
+	margin-left: 100px;
+	display: inline;
+}
+.custom-c{
+	color: #fff;
+	float: left;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #fff;
+	margin-left: 10px;
+	border-radius: 100%;
+	text-align: center;
+	padding: 10px;
+}
+.custom-c:hover{
+	color: green;
+}
+.active{
+	color: green;
+}
+.icon-custom ul{
+	list-style: none;
+	display: flex;
+	
+}
+.icon-custom ul li a{
+	color: #fff;
+	float: left;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #fff;
+	margin-left: 10px;
+	border-radius: 100%;
+	text-align: center;
+	padding: 10px;
+}
+.hover-custom ul li a:hover{
+	color: #4a9e23;
+}
+   /*footer css end*/
+   .scrollToTop
+   {
+		   position: fixed;
+		   line-height: center;
+		   bottom: 40px;
+		   right: 20px;
+		   padding: 11px 0px 0px 11px;
+		   width: 40px;
+		   height: 40px;
+		   background: #ff4f81;
+		   display: none;
+		   border: 2px solid #00ffff;
+   }
+   .scrollToTop:hover
+   {
+		   background: #fff;
+		   padding: 11px 0px 0px 11px;
+		   color: #ff4f81;
+		   border: 2px solid #ff4f81;
+		   transition: 0.5s all;
+		   -webkit-transition: 0.5s all;
+		   -moz-transition: 0.5s all;
+		   -ms-transition: 0.5s all;
+		   -o-transition: 0.5s all;
+   }
+   /*about page start*/
+   /*background image section start*/
+   .bg_image img{
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+.about_bg{
+position: absolute;
+top: 20%;
+left: 45%;
+height: 100px;
+width: 200px;
+}
+.a_left{
+   margin-left: 20%;
+}
+.active{
+   color: green;
+}
+/*background image section end*/
+/*massage  section start*/
+.massage_p1{
+   padding-top: 20px;
+   font-size: 14px;
+   text-align: justify;
+}
+.massage_p{
+   font-size: 14px;
+   text-align: justify;
+}
+.cumy-ml{
+   margin-left: 90px;
+}
+/*massage section end*/
+/*card section start*/
+.custom_card_footer{
+   text-align: justify;
+   color: gray;
+
+}
+/*card section end*/
+/*about page end*/
+/*course section start*/
+/*course section start*/
+.bottom_top{
+   height: 2px;
+   width: 100px;
+   background-color: green;
+}
+select{
+   border-color: green;
+}
+/*course section end*/
+/*course section end*/
+/*course details section start*/
+.coursedetails_bg{
+   position: absolute;
+top: 20%;
+left: 45%;
+height: 100px;
+width: 400px;
+}
+.c_left{
+   margin-left: 30px;
+   color: #fff;
+}
+/*course details section start*/
+/*coures features section start*/
+.border_course_details{
+   height: 2px;
+   width: 100px;
+   background-color: green;
+}
+.custom_course_feature{
+   height: 400px;
+   width: 400px;
+}
+.submit_feature{
+   border:1px solid green;
+}
+.custom_site_image{
+   height: 380px;
+   width: 100%;
+}
+/*coures features section end*/
+/*instructor and comment section start*/
+.custom_li{
+	border:1px solid gray;
+	border-radius:100%;
+	text-align: center;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+}
+.custom_f_p{
+	font-size: 12px;
+}
+.second_comment{
+	margin-left: 60px;
+}
+/*instructor  and comment section end*/
+/*input comment section start*/
+.custom_form{
+	margin-right: 50px;
+}
+textarea{
+	
+	border-color: #ddd;
+}
+/*input comment section end*/
+/*course details section end*/
+/* .position_h1a{
+	position:relative;
+}
+   .postion_h1{
+	   position:absoulate;
+	   top:0; 
+	   left:0;
+   } */
+

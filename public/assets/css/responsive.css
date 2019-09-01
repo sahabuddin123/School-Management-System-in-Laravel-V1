@@ -1,0 +1,426 @@
+@media screen and (max-width: 1300px){
+  
+    .custom-nav{
+		margin-left: 50%;
+	}
+	.img-position{
+		margin: 0;
+	}
+	.display-disable ul li{
+        font-size: 12px;
+    }
+    .display-disable ul li a{
+        font-size: 12px;
+    }
+	.motaleb-re{
+		left: 50%;
+		height: 300px;
+		widows: 450px;
+	}
+	.motaleb-re h1{
+		padding: 0;
+		margin: 0;
+		font-size: 30px;
+		text-align: left;
+	}
+	.motaleb-re p{
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+		color: #ff0000;
+	}
+	.motaleb-re button{
+		height: 40px;
+		width: 90px;
+		font-size: 12px;
+		padding: 0;
+		margin: 0;
+	}
+	.left  , .main, .right {width:100%;}
+	.bac-pic{
+		height: 100%;
+		width: 100%;
+    }
+    /* fatcs */
+    .stat-items h1{
+        font-size: 24px;
+    }
+    .stat-items p{
+        font-size: 8px;
+    }
+    /* end fatcs */
+    .custom_news{
+        height: 235px;
+    }
+    .custom_news img{
+        height: 234px;
+    }
+    .custom_news_body{
+        padding: 4px;
+    }
+    .custom_news_body p{
+        text-align: justify;
+    }
+    .custom_news1{
+        height: 494px;
+    }
+    /* student say */
+    /* .first-comment{
+        height: 270px;
+        widows: 300px;
+        margin-left: 20px;
+    }
+    .first-comment1{
+        height: 270px;
+        widows: 300px;
+        margin-left: 65px;
+    }
+    .custom-img-comment{
+        height: 80px;
+        width: 80px;
+        margin-left: 35px;
+        margin-top: -60px;
+    }
+    .custom_say_p{
+       text-align: justify;
+        margin: 0;
+        padding-left: 5; 
+        font-size: 11px;
+    }
+    .custom_say_h6{
+        padding-top: 25px;
+        margin-left: 0px;
+    } */
+    /* end student say */
+}
+@media screen and (max-width: 992px){
+	.custom-nav{
+		margin-left: 16px;
+	}
+	.img-position{
+		margin: 0;
+	}
+	.show-header{
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        display: block;
+        background-color: #56ab2f;
+        position: relative;
+    }
+    .show-header-log{
+        position: absolute;
+        top: 25px;
+        right: 10%; 
+    }
+	.display-disable{
+		display: none;
+	}
+	.motaleb-re{
+		left: 50%;
+		height: 300px;
+		widows: 450px;
+	}
+	.motaleb-re h1{
+		padding: 0;
+		margin: 0;
+		font-size: 30px;
+		text-align: left;
+	}
+	.motaleb-re p{
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+		color: #ff0000;
+	}
+	.motaleb-re button{
+		height: 20px;
+		width: 90px;
+		font-size: 12px;
+		padding: 0;
+		margin: 0;
+	}
+	.left  , .main, .right {width:100%;}
+	.bac-pic{
+		height: 100%;
+		width: 100%;
+    }
+    /* fatcs */
+    .stat-items h1{
+        font-size: 24px;
+    }
+    .stat-items p{
+        font-size: 8px;
+    }
+    /* end fatcs */
+    .custom_news{
+        height: 235px;
+    }
+    .custom_news img{
+        height: 234px;
+    }
+    .custom_news_body{
+        padding: 4px;
+    }
+    .custom_news_body p{
+        text-align: justify;
+    }
+    .custom_news1{
+        height: 494px;
+    }
+    /* student say */
+    .first-comment{
+        height: 270px;
+        widows: 300px;
+        margin-left: 20px;
+    }
+    .first-comment1{
+        height: 270px;
+        widows: 300px;
+        margin-left: 65px;
+    }
+    .custom-img-comment{
+        height: 80px;
+        width: 80px;
+        margin-left: 35px;
+        margin-top: -60px;
+    }
+    .custom_say_p{
+       text-align: justify;
+        margin: 0;
+        padding-left: 5; 
+        font-size: 11px;
+    }
+    .custom_say_h6{
+        padding-top: 25px;
+        margin-left: 0px;
+    }
+	/* end student say */
+	/* subscribe section start */
+	.email-section {
+		margin-left: 23%;
+		padding: 10px;
+		background-color: #56ab2f;
+		border: 1px solid #fff;
+	}
+	/* subscribe section end */
+   }
+   @media screen and (max-width: 767px){
+    body{
+           padding: 0;
+           margin: 0;
+    }
+	.custom-nav{
+		margin-left: 0px;
+	}
+	.img-position{
+		margin: 0;
+	}
+	.display-disable{
+		display: none;
+	}
+	.show-header{
+		display: block;
+		background-color: #56ab2f;
+	}
+	.motaleb-re{
+		left: 40%;
+		height: 300px;
+		width: 350px;
+	}
+	.motaleb-re h1{
+		padding: 0;
+		margin: 0;
+		font-size: 25px;
+		text-align: left;
+	}
+	.motaleb-re p{
+		padding: 0;
+		margin: 0;
+		font-size: 12px;
+		color: #ff0000;
+	}
+	.motaleb-re button{
+		height: 25px;
+		width: 90px;
+		font-size: 12px;
+		padding: 0;
+		margin: 0;
+	}
+	.left  , .main, .right {width:100%;}
+	.bac-pic{
+		height: 100%;
+		width: 100%;
+	}
+	/* news section start */
+	.custom_news{
+		height: 450px;
+	}
+    .custom_news img{
+        height: 234px;
+    }
+    .custom_news_body{
+        padding: 4px;
+    }
+    .custom_news_body p{
+        text-align: justify;
+    }
+    .custom_news1{
+        height: 494px;
+    }
+	/* news section end */
+	 /* student say */
+	 .first-comment{
+        height: 300px;
+        width: 80%;
+        margin-left: 45px;
+    }
+    .first-comment1{
+        height: 300px;
+        width: 80%;
+        margin-left: 45px;
+    }
+    .custom-img-comment{
+		height: 150px;
+		width: 150px;
+		margin-left: 32%;
+		margin-top: 2%;
+	}
+    .custom_say_p{
+       text-align: justify;
+        margin: 0;
+        padding-left: 5; 
+        font-size: 11px;
+    }
+    .custom_say_h6{
+        padding-top: 25px;
+        margin-left: 0px;
+    }
+	/* end student say */
+	/* .subscribe section start */
+	.email-section {
+		margin-left: 25%;
+		padding: 10px;
+		background-color: #56ab2f;
+		border: 1px solid #fff;
+	}
+	input[type=text].email-section{
+		width: 40%;
+		height: 5%;
+		padding: 5px;
+	}
+	.subscribe button{
+		height: 35px;
+		line-height: 10px;
+		width: 8%;
+	}
+	.custom-subcribes{
+		margin-left: 0px;
+	}
+	/* .subscribe section end */
+   }
+   @media screen and (max-width: 550px){
+	.custom-nav{
+		margin-left: 0px;
+	}
+	.img-position{
+		margin: 0;
+	}
+	.display-disable{
+		display: none;
+	}
+	.show-header{
+		display: block;
+		background-color: #56ab2f;
+	}
+	.motaleb-re{
+		left: 25%;
+		height: 150px;
+		width: 250px;
+	}
+	.motaleb-re h1{
+		padding: 0;
+		margin: 0;
+		font-size: 22px;
+		text-align: left;
+	}
+	.motaleb-re p{
+		padding: 0;
+		margin: 0;
+		font-size: 9px;
+		color: #ff0000;
+	}
+	.motaleb-re button{
+		height: 22px;
+		width: 75px;
+		font-size: 9px;
+		padding: 0;
+		margin: 0;
+	}
+	.left  , .main, .right {width:100%;}
+	.bac-pic{
+		height: 100%;
+		width: 100%;
+	}
+   }
+   @media screen and (max-width: 420px){
+	.custom-nav{
+		margin-left: 0px;
+	}
+	.img-position{
+		margin: 0;
+	}
+	.display-disable{
+		display: none;
+	}
+	.show-header{
+		display: block;
+		background-color: #56ab2f;
+	}
+	.motaleb-re{
+		left: 15%;
+		height: 100px;
+		width: 150px;
+	}
+	.motaleb-re h1{
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+		text-align: left;
+	}
+	.motaleb-re p{
+		padding: 0;
+		margin: 0;
+		font-size: 8px;
+		color: #ff0000;
+	}
+	.motaleb-re button{
+		height: 20px;
+		width: 70px;
+		font-size: 8px;
+		padding: 0;
+		margin: 0;
+	}
+	.left  , .main, .right {width:100%;}
+	.bac-pic{
+		height: 100%;
+		width: 100%;
+	}
+	.subscribe h1{
+		font-size: 18px;
+	}
+	.subscribe input[type=text] {
+		width: 150px;
+		height: 40px;
+	}
+	.subscribe button{
+		height: 40px;
+		widows: 50px;
+		line-height: 20px;
+	}
+	.email-section{
+		padding: 0;
+		margin-left:20%;
+	}
+ 
+}

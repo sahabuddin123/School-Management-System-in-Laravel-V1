@@ -1,0 +1,138 @@
+/*==============Project Details==========
+	project name: School management
+	Author: Arman hossain
+	E-mail: armanh686@gmail.com
+	contract: 01838472540
+	Date: 14/07/2019
+========================================*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*base css start*/
+ul{
+	list-style: none;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0;
+	margin: 0;
+}
+/*base css end*/
+
+/*common css start*/
+
+/*common css end*/
+/*start header top*/
+.header-top{
+	background: #56ab2f;
+	color: #fff;
+}
+.header-top ul li{
+	display: inline;
+}
+.header-top ul li a{
+	color: #fff;
+}
+/*end header top*/
+/*start navbar*/
+.navbar{
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	z-index: 100;
+}
+.navbar ul{
+  position: -webkit-sticky; /* Safari */
+  overflow: hidden;
+  top: 0px;
+}
+.bg-light{
+	opacity: 0.9;
+}
+/*end navbar*/
+/*start teacher banner section*/
+	.teacher-banner{
+		background-image: url('../../assets/img/5.png');
+		height: 200px;
+		width: 100%;
+	}
+	.teacher-banner a{
+		color: #fff;
+		text-decoration: none;
+	}
+/*end teacher banner section*/
+/*start teacher section*/
+.overline{
+	text-decoration: overline;
+}
+.custom-icon ul li{
+	font-size: 15px;
+	padding-left: 7px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 12px;
+	background: #fff;
+	color: #000;
+	border: 1px solid #666;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+/*end teacher section*/
+/*start subscribe section*/
+.subscribe{
+	background: #56ab2f;
+	height: auto;
+}
+.sub-btn-margin-left{
+	margin-left: 406px;
+}
+.email-bg{
+	background: #56ab2f;
+}
+/*end subscribe section*/
+/*start footer section*/
+.footer-section{
+	background: #1e1d1d;
+	height: auto;
+	font-size: 14px;
+}
+.footer-section a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer-gallery-img img{
+	height: 60px;
+	width: 60px;
+}
+.footer-section h3{
+	margin-bottom: 20px;
+}
+.footer-section li{
+	line-height: 30px;
+}
+.font-size{
+	font-size: 18px;
+	padding-right: 5px;
+	color: #56ab2f;
+}
+.footer-hr-color{
+	background-color: #56ab2f;
+}
+.custom-icon-footer ul li{
+	font-size: 15px;
+	padding-left: 7px;
+	width: 30px;
+	height: 30px;
+	background: #1e1d1d;
+	border: 1px solid #666;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+/*end footer section*/
